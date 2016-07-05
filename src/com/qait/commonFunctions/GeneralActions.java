@@ -22,7 +22,7 @@ public class GeneralActions {
 	
 	public WebDriver getDriver(String browserName) {
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/vijaykumar/Downloads/chromeDriver/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "path-to-your-chrome-driver");
 			return new ChromeDriver();
 		}
 		if(browserName.equals("firefox")) {
